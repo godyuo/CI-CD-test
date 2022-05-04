@@ -66,8 +66,8 @@ build:
     # 사용자 인증
     - name: Github auth and commit
       env:
-      MY_EMAIL: godyuo@gmail.com
-      MY_NAME: godyuo
+      MY_EMAIL: [godyuo@gmail.com]
+      MY_NAME: [godyuo]
       run: |
         git config --global user.email $MY_EMAIL
         git config --global user.name $MY_NAME
