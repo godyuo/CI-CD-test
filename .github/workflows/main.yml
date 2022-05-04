@@ -69,4 +69,4 @@ jobs:
       run: |
         git add .
         git commit -m "Build done!"
-        git push -f --set-upstream origin release
+        git push origin
