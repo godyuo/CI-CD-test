@@ -1,3 +1,3 @@
 CD/CD test 
 
-use Jenkins
+use github
