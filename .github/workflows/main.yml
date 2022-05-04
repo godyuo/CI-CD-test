@@ -51,9 +51,9 @@ jobs:
     - name: create release branch
       run: git checkout -b release
 
-    # # stash 적용
-    # - name: Apply stash
-    #   run: git stash pop
+    # stash 적용
+    - name: Apply stash
+      run: git stash pop
 
     # 사용자 인증
     - name: Github auth and commit
