@@ -2,7 +2,8 @@ name: CI
 on:
   push:
     ##### 1 #####
-    branches: master
+    branches: 
+      - master
 
     workflow_dispatch:
 
