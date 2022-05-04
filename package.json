@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/godyuo/CI-CD-test.git"
+    "url": "git+http://github.com/godyuo/CI-CD-test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "http://github.com/godyuo/CI-CD-test/issues"
+    "url": "https://github.com/godyuo/CI-CD-test/issues"
   },
   "homepage": "https://github.com/godyuo/CI-CD-test#readme"
 }
