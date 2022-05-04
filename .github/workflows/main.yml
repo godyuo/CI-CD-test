@@ -65,16 +65,16 @@ build:
 
     # 사용자 인증
     - name: Github auth and commit
-        env:
-        MY_EMAIL: [사용자 이메일]
-        MY_NAME: [사용자 이름]
-        run: |
+      env:
+      MY_EMAIL: [사용자 이메일]
+      MY_NAME: [사용자 이름]
+      run: |
         git config --global user.email $MY_EMAIL
         git config --global user.name $MY_NAME
 
     # releaes 브랜치에 push
     - name: git commit
-        run: |
+      run: |
         git add .
         git commit -m "Build done!"
         git push -f --set-upstream origin release
