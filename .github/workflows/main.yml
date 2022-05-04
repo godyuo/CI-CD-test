@@ -68,7 +68,7 @@ jobs:
       env:
         MY_EMAIL: [godyuo@gmail.com]
         MY_NAME: [godyuo@gmail.com]
-        run: |
+      run: |
         git config --global user.email $MY_EMAIL
         git config --global user.name $MY_NAME
 
