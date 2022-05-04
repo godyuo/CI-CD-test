@@ -44,7 +44,7 @@ jobs:
 
     # stash 생성
     - name: Stash
-      run: git stash
+      run: git stash save
 
     # 배포용 release 생성 후 이동
     - name: create release branch
