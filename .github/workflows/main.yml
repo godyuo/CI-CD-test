@@ -66,10 +66,7 @@ jobs:
 
     # releaes 브랜치에 push
     - name: git commit
-      uses: actions/labeler@v2
-      with: 
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add .
         git commit -m "Build done!"
-        git push origin master
+        git push --set origin release
