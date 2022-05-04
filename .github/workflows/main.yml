@@ -45,9 +45,9 @@ jobs:
     - name: Stash
       run: git stash
 
-    # 배포용 release 생성 후 이동
-    - name: create release branch
-      run: git checkout -b release
+    # # 배포용 release 생성 후 이동
+    # - name: create release branch
+    #   run: git checkout -b release
 
     # # stash 적용
     # - name: Apply stash
